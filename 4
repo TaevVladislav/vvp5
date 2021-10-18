@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	int x1, y1, x2, y2;
+	cin >> x1;
+	cin >> y1;
+	cin >> x2;
+	cin >> y2;
+	float a = abs(x1 - x2);
+	float b = abs(y1 - y2);
+	float P = 2 * (b + a);
+	float S = a * b;
+	cout << "P = " << P << endl;
+	cout << "S = " << S << endl;
+}
